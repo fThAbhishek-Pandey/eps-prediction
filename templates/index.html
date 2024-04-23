@@ -1,195 +1,195 @@
 <style>
-   body {
-    width: 100%;
-    margin: auto;
-    justify-content: center;
-    background-color: #e0f2f1; /* Light blue background */
-    font-family: Open Sans, sans-serif; /* Fallback for sans-serif */
-  }
- .nav-bar{
-    background-color: #0fc280;
-    height: 8vh;
-    width: 100%;
-    /* text-align: center; */
-    font-size: 1.8em;
-    color: #e0f2f1;
-    display: flex;
-    flex-direction: row;
-    margin: 0.5rem 0rem 1rem 0rem ;
-    justify-content: space-around;
+  body {
+   width: 100%;
+   margin: auto;
+   justify-content: center;
+   background-color: #e0f2f1; /* Light blue background */
+   font-family: Open Sans, sans-serif; /* Fallback for sans-serif */
  }
- .nav-text{
-    font-size: 0.8em;
-    text-decoration: none;
-    color: azure;
-    margin: 0.5rem;
- }
- .button{
-   margin: 0.6rem;
- }
- #contribute{
-        background-color: rgb(225, 124, 29);
-        border: 1px solid rgb(148, 148, 214);
-         padding: 0.4rem; 
-        border: 1px solid #f1c40f;
-        border-radius: 8px;
-        margin: 2rem 0rem 0rem 0rem;
- }
-  h1 {
-    color: #0fc280; /* Primary - Blue */
-    font-family: 'Montserrat', sans-serif; /* Headings use Montserrat */
-    font-size: 1.5em;
-    margin-bottom: 1em;
-    text-align: center;
-    border: 1px solid #0fc280;
-    border-radius: 4px;
-    width: 90%;
-    height:2rem;
-    margin:1em auto 1em auto;
+.nav-bar{
+   background-color: #0fc280;
+   height: 8vh;
+   width: 100%;
+   /* text-align: center; */
+   font-size: 1.8em;
+   color: #e0f2f1;
+   display: flex;
+   flex-direction: row;
+   margin: 0.5rem 0rem 1rem 0rem ;
+   justify-content: space-around;
+}
+.nav-text{
+   font-size: 0.8em;
+   text-decoration: none;
+   color: azure;
+   margin: 0.5rem;
+}
+.button{
+  margin: 0.6rem;
+}
+#contribute{
+       background-color: rgb(225, 124, 29);
+       border: 1px solid rgb(148, 148, 214);
+        padding: 0.4rem; 
+       border: 1px solid #f1c40f;
+       border-radius: 8px;
+       margin: 2rem 0rem 0rem 0rem;
+}
+ h1 {
+   color: #0fc280; /* Primary - Blue */
+   font-family: 'Montserrat', sans-serif; /* Headings use Montserrat */
+   font-size: 1.5em;
+   margin-bottom: 1em;
+   text-align: center;
+   border: 1px solid #0fc280;
+   border-radius: 4px;
+   width: 90%;
+   height:2rem;
+   margin:1em auto 1em auto;
 
-    background-color: #fff;
-  }
+   background-color: #fff;
+ }
 
-  label {
-    color: #2c3e50; /* Text color - Dark grey */
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    margin-right: 0.5em;
-    margin-bottom: 0.5em;
-    text-align: center;
-  }
+ label {
+   color: #2c3e50; /* Text color - Dark grey */
+   display: flex;
+   flex-direction: column;
+   flex-wrap: nowrap;
+   margin-right: 0.5em;
+   margin-bottom: 0.5em;
+   text-align: center;
+ }
 
-  input[type="text"],
-  input[type="submit"] {
-    padding: 0.8em 1em;
-    border: 1px solid #0fc280;
-    border-radius: 4px;
-    margin-bottom: 1em;
-  }
-  input[type="text"]:hover{
-    border:2px solid rgb(225, 124, 29);
-   
+ input[type="number"],
+ input[type="submit"] {
+   padding: 0.8em 1em;
+   border: 1px solid #0fc280;
+   border-radius: 4px;
+   margin-bottom: 1em;
+ }
+ input[type="number"]:hover{
+   border:2px solid rgb(225, 124, 29);
+  
 }
 .form-atibute{
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    justify-content: center;
+   display: flex;
+   flex-direction: column;
+   margin: auto;
+   justify-content: center;
 
 }
-  input[type="submit"] {
-    background-color:#0fc280 ; /* Secondary - Light orange */
-    color: #fff; /* White text */
-    cursor: pointer;
-  }
-  input[type="submit"]:hover{
-    background-color: #fff; /* Secondary - Light orange */
-    color: #0fc280; 
-  }
-  .required{
-    color: red;
-  }
-  form{
-    width: 90%;
-    background-color: #fff;
-    border: 1px solid #0fc280 ;
-    margin: auto;
-    justify-content: center;
-    padding:2% ;
-  }
-  .footer{
-    background-color: #0fc280;
-    display: flex;
-    width: 100%;
-    height: 4em;
-    margin: auto;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-  }
-.footer-text{
-        text-decoration:none ;
-        text-align: center;
-        color: #fff;
-  }
-  .foot-bar{
-    margin-top:1em ;
-  }
-  @media screen and (min-width :576px){
-    .form-atibute{
-      flex-direction: row;
-     
-  }
-  .nav-text{
-    font-size: 2rem;
+ input[type="submit"] {
+   background-color:#0fc280 ; /* Secondary - Light orange */
+   color: #fff; /* White text */
+   cursor: pointer;
  }
-  }
-  </style>
-  
-  <!DOCTYPE html>
-  <html>
-  <head>
-    <title>EPS Prediction by Machine Learning</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <nav class="nav-bar">
-      <div class="nav-text">Abhishek's Project</div>
-      <div ><a class="nav-text" 
-        href="https://github.com/fThAbhishek-Pandey/eps-prediction/blob/main/README.md">Docs</a></div>
-      <div class="button"><a class="nav-text" 
-        href="https://github.com/fThAbhishek-Pandey/eps-prediction"><span id="contribute">Contribute</span></a></div>
-    </nav>
-    <h1>EPS Prediction by Machine Learning</h1>
+ input[type="submit"]:hover{
+   background-color: #fff; /* Secondary - Light orange */
+   color: #0fc280; 
+ }
+ .required{
+   color: red;
+ }
+ form{
+   width: 90%;
+   background-color: #fff;
+   border: 1px solid #0fc280 ;
+   margin: auto;
+   justify-content: center;
+   padding:2% ;
+ }
+ .footer{
+   background-color: #0fc280;
+   display: flex;
+   width: 100%;
+   height: 4em;
+   margin: auto;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+ }
+.footer-text{
+       text-decoration:none ;
+       text-align: center;
+       color: #fff;
+ }
+ .foot-bar{
+   margin-top:1em ;
+ }
+ @media screen and (min-width :576px){
+   .form-atibute{
+     flex-direction: row;
     
-    <form action="/predict" method="POST">
-     <div class="form-atibute">
-      <label for="ROCE (%)">ROCE :</label>
-      <input type="text" id="ROCE (%)" name="ROCE (%)" placeholder="In %" required><br>
-    </div>
+ }
+ .nav-text{
+   font-size: 2rem;
+}
+ }
+ </style>
+ 
+ <!DOCTYPE html>
+ <html>
+ <head>
+   <title>EPS Prediction by Machine Learning</title>
+   <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+   <nav class="nav-bar">
+     <div class="nav-text">Abhishek's Project</div>
+     <div ><a class="nav-text" 
+       href="https://github.com/fThAbhishek-Pandey/eps-prediction/blob/main/README.md">Docs</a></div>
+     <div class="button"><a class="nav-text" 
+       href="https://github.com/fThAbhishek-Pandey/eps-prediction"><span id="contribute">Contribute</span></a></div>
+   </nav>
+   <h1>EPS Prediction by Machine Learning</h1>
+   
+   <form action="/predict" method="POST">
     <div class="form-atibute">
-      <label for="CASA (%)">CASA :</label>
-      <input type="text" id="CASA (%)" name="CASA (%)" placeholder="In %" required><br>
-    </div>
+     <label for="ROCE (%)">ROCE :</label>
+     <input type="number" id="ROCE (%)" name="ROCE (%)" placeholder="In %" required><br>
+   </div>
+   <div class="form-atibute">
+     <label for="CASA (%)">CASA :</label>
+     <input type="number" id="CASA (%)" name="CASA (%)" placeholder="In %" required><br>
+   </div>
+   <div class="form-atibute">
+     <label for="Return on Equity / Networth (%)">Return on Equity / Networth* :</label>
+     <input type="number" id="Return on Equity / Networth (%)" name="Return on Equity / Networth (%)" placeholder="In %" required><br>
+   </div>
+   <div class="form-atibute">
+     <label for="Non-Interest Income/Total Assets (%)">Non-Interest Income/Total Assets* :</label>
+     <input type="number" id="Non-Interest Income/Total Assets (%)" name="Non-Interest Income/Total Assets (%)" placeholder="In %" required><br>
+   </div>
+   <div class="form-atibute">
+     <label for="Operating Profit/Total Assets (%)">Operating Profit/Total Assets* :</label>
+     <input type="number" id="Operating Profit/Total Assets (%)" name="Operating Profit/Total Assets (%)" placeholder="In %" required><br>
+   </div>
+   <div class="form-atibute">
+     <label for="Operating Expenses/Total Assets (%)">Operating Expenses/Total Assets* :</label>
+     <input type="number" id="Operating Expenses/Total Assets (%)" name="Operating Expenses/Total Assets (%)" placeholder="In %" required><br>
+   </div>
+   <div class="form-atibute">
+     <label for="Interest Expenses/Total Assets (%)">Interest Expenses/Total Assets* :</label>
+     <input type="number" id="Interest Expenses/Total Assets (%)" name="Interest Expenses/Total Assets (%)" placeholder="In %" required><br>
+   </div>
     <div class="form-atibute">
-      <label for="Return on Equity / Networth (%)">Return on Equity / Networth* :</label>
-      <input type="text" id="Return on Equity / Networth (%)" name="Return on Equity / Networth (%)" placeholder="In %" required><br>
+     <label for="Face_value">Face value* :</label>
+     <input type="number" id="Face_value" name="Face_value" required><br><br><br>
     </div>
-    <div class="form-atibute">
-      <label for="Non-Interest Income/Total Assets (%)">Non-Interest Income/Total Assets* :</label>
-      <input type="text" id="Non-Interest Income/Total Assets (%)" name="Non-Interest Income/Total Assets (%)" placeholder="In %" required><br>
-    </div>
-    <div class="form-atibute">
-      <label for="Operating Profit/Total Assets (%)">Operating Profit/Total Assets* :</label>
-      <input type="text" id="Operating Profit/Total Assets (%)" name="Operating Profit/Total Assets (%)" placeholder="In %" required><br>
-    </div>
-    <div class="form-atibute">
-      <label for="Operating Expenses/Total Assets (%)">Operating Expenses/Total Assets* :</label>
-      <input type="text" id="Operating Expenses/Total Assets (%)" name="Operating Expenses/Total Assets (%)" placeholder="In %" required><br>
-    </div>
-    <div class="form-atibute">
-      <label for="Interest Expenses/Total Assets (%)">Interest Expenses/Total Assets* :</label>
-      <input type="text" id="Interest Expenses/Total Assets (%)" name="Interest Expenses/Total Assets (%)" placeholder="In %" required><br>
-    </div>
-     <div class="form-atibute">
-      <label for="Face_value">Face value* :</label>
-      <input type="text" id="Face_value" name="Face_value" required><br><br><br>
-     </div>
-     <!-- submit button -->
-      <input type="submit" value="Predict using ML"><br><br><br>
-      <p style="font-size: 1.2em; font-weight: bold;">EPS Predicted: <span id="result">{{result}}</span></p>
-  
-  
-    </form>
-    <!-- footer -->
-    <div class="footer">
-      <div class="foot-bar"><a class="footer-text"  href="https://www.linkedin.com/in/abhishek-pandey-984110254/">Hire Me</a></div>
-      <div class="foot-bar"><a class="footer-text" href="https://drive.google.com/file/d/1SwWDFOD38Y81o3t0wSPPWQgRxbLIAWEX/view?usp=drivesdk&usp=embed_facebook">Resume</a></div>
-      <div class="foot-bar"><a class="footer-text" href="https://leetcode.com/Abhishek-Pandey/">Leetcode</a></div>
-      <div class="foot-bar"><a class="footer-text" href="https://www.linkedin.com/in/abhishek-pandey-984110254/">Linked in</a></div>
-      <div class="foot-bar"><a class="footer-text" href="https://github.com/fThAbhishek-Pandey">GitHub</a></div>
-      <div class="foot-bar"><a class="footer-text" href="https://replit.com/@abhishekfth6789">Replit</a></div>
-    </div>
-  </body>
-  </html>
-  
+    <!-- submit button -->
+     <input type="submit" value="Predict using ML"><br><br><br>
+     <p style="font-size: 1.2em; font-weight: bold;">EPS Predicted: <span id="result">{{result}}</span></p>
+ 
+ 
+   </form>
+   <!-- footer -->
+   <div class="footer">
+     <div class="foot-bar"><a class="footer-text"  href="https://www.linkedin.com/in/abhishek-pandey-984110254/">Hire Me</a></div>
+     <div class="foot-bar"><a class="footer-text" href="https://drive.google.com/file/d/1SwWDFOD38Y81o3t0wSPPWQgRxbLIAWEX/view?usp=drivesdk&usp=embed_facebook">Resume</a></div>
+     <div class="foot-bar"><a class="footer-text" href="https://leetcode.com/Abhishek-Pandey/">Leetcode</a></div>
+     <div class="foot-bar"><a class="footer-text" href="https://www.linkedin.com/in/abhishek-pandey-984110254/">Linked in</a></div>
+     <div class="foot-bar"><a class="footer-text" href="https://github.com/fThAbhishek-Pandey">GitHub</a></div>
+     <div class="foot-bar"><a class="footer-text" href="https://replit.com/@abhishekfth6789">Replit</a></div>
+   </div>
+ </body>
+ </html>
+ 
